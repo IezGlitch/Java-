@@ -46,14 +46,16 @@ import java.util.*;
 public class array{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the Size of your Array");
         int n = sc.nextInt();
         int numbers[] = new int[n];
+        System.out.println("Enter the number of whom you want to find its index");
+        int x = sc.nextInt();
         for (int i = 0;i<n;i++){
             numbers[i]=sc.nextInt();}
-        for (int i =0;i<n;i++){
-            if(i==20){
-                System.out.println(i);
-            }
+        for (int i =0;i<numbers.length;i++){
+            if(numbers[i]==x) {
+           System.out.println("Index of that given number is "+i);
+        } }
         }
-        }
-    }
+}
