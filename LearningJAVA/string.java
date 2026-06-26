@@ -24,3 +24,23 @@
 //         }
     
 // } 
+
+//compareTo()
+// import java.util.*;
+// public class string{
+//     public static void main(String args[]){
+//         Scanner sc = new Scanner(System.in);
+//         String a = sc.next();
+//         String b = sc.next();
+//         if(a.compareTo(b)==0){
+//             System.out.println("Equal");}
+//         else if(a.compareTo(b)>=1){
+//             System.out.println("Positive Number");
+//         }
+//         else{
+//             System.out.println("Negative Number");
+//         }
+
+
+//     }
+// }
