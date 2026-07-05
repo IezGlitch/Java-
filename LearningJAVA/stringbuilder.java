@@ -40,6 +40,6 @@ public class stringbuilder {
         System.out.print(arr[i]);
     }
 
-    }
+ }
 
 }
