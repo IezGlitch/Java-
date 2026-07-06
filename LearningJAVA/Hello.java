@@ -2,8 +2,8 @@ import java.util.*;
 class Hello{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        int a = 68;
-        int b = 44;
+        int a = 72;
+        int b = 47;
         String x = "Gandu";
         x = "Happy Gandu";
         b = 55;
