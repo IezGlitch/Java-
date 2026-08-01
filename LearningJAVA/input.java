@@ -1,11 +1,24 @@
+// import java.util.*;
+// public class input {
+//     public static void main(String args[]){
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+//         int sum = a + b;
+//         System.out.println(sum);
+//     }
+    
+// }
 import java.util.*;
-public class input {
+public class input{
+     public static void printNumber(int a) {
+        System.out.print(a);
+        return;
+    }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
-        int b = sc.nextInt();
-        int sum = a + b;
-        System.out.println(sum);
+        printNumber(a);
     }
-    
 }
+ 
