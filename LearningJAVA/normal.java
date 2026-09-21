@@ -33,16 +33,17 @@
 //         System.out.println(LastDigit);
 //     }
 // }
-import java.util.*;
-public class normal{
-    public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
-        int FirstDigit = num;
-        int LastDigit = num % 10;
-        while (FirstDigit >= 10){
-            FirstDigit/=10;
-        }
-        System.out.println("Sum of FirstDigit and LastDigit :" + (FirstDigit+LastDigit));
-    }
-}
+// import java.util.*;
+// public class normal{
+//     public static void main(String args[]){
+//         Scanner sc = new Scanner(System.in);
+//         int num = sc.nextInt();
+//         int FirstDigit = num;
+//         int LastDigit = num % 10;
+//         while (FirstDigit >= 10){
+//             FirstDigit/=10;
+//         }
+//         System.out.println("Sum of FirstDigit and LastDigit :" + (FirstDigit+LastDigit));
+//     }
+// }
+
